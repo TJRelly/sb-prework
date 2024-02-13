@@ -7,7 +7,7 @@ function findTheDuplicate(arr) {
   }, {});
 
   for (const key in map) {
-    if (map[key] > 1) return key;
+    if (map[key] > 1) return +key;
   }
   return undefined;
 }
