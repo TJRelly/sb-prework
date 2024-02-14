@@ -1,4 +1,7 @@
-function robotInstructions() {
- // add whatever parameters you deem necessary - good luck!
+function robotInstructions(array) {
+    return array.reduce((obj, curr) => {
+        obj[curr] = ++obj[curr] || 1
+        return obj
+    }, {})
 }
 

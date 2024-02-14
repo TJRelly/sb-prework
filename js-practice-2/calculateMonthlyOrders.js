@@ -1,4 +1,9 @@
-function calculateMonthlyOrders() {
-  // add whatever parameters you deem necessary - good luck!
+function calculateMonthlyOrders(arrOfObj) {
+  return arrOfObj.reduce((acc, curr) => {
+    for(const key in curr) {
+      acc += curr[key]
+    }
+    return acc
+  }, 0)
 }
 
