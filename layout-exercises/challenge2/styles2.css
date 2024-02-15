@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+    padding: 2rem;
+}
+
+#wrap {
+    background-color: whitesmoke;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+    max-width: 75%;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+    margin: 0 -2rem;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+}
+
+li b {
+    font-size: 2rem;
+}
+
+.copyright {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
